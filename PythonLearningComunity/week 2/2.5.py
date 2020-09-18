@@ -1,0 +1,10 @@
+p= float(input( "PRincipal = "))
+r= float( input ("Annual Interest ratesr="))
+n= float(input ("Number of times interest is compounded per year="))
+t= float( input( "number of years ="))
+a=p*((1+r/n)**(n*t))
+a1= round(a,2)
+print( "Final amount equals=",a1)
+procent= ((a-p)/p)*100
+procent1=round(procent,2)
+print("Procent increase =",procent1,"%")
